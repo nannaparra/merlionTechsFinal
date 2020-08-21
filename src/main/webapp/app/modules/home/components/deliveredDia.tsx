@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend,} from 'recharts';
 import {ISalesProps} from 'app/entities/sales/sales';
 
 interface IPair{
@@ -39,21 +38,7 @@ export const DeliveredDia=()=>{
     };
 
     return (
-        <BarChart
-        width={500}
-        height={300}
-        data={pairs}
-        margin={{
-            top: 5, right: 30, left: 20, bottom: 5,
-        }}
-        >
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="date" />
-        <YAxis />
-        <Tooltip />
-        <Legend />
-        <Bar dataKey="cont" fill="#8884d8" />
-        </BarChart>
+        <h1>Grafico deliverededDia</h1>
     )
 }
 
