@@ -20,6 +20,7 @@ import product, {
 import sales, {
   SalesState
 } from 'app/entities/sales/sales.reducer';
+import home, { HomeState } from 'app/modules/home/home.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -37,6 +38,7 @@ export interface IRootState {
   readonly sales: SalesState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
+  readonly home: HomeState;
 }
 
 const rootReducer = combineReducers<IRootState>({
@@ -54,6 +56,7 @@ const rootReducer = combineReducers<IRootState>({
   sales,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar,
+  home,
 });
 
 export default rootReducer;

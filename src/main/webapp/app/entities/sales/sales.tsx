@@ -16,7 +16,6 @@ export const Sales = (props: ISalesProps) => {
   useEffect(() => {
     props.getEntities();
   }, []);
-
   const { salesList, match, loading } = props;
   return (
     <div>
