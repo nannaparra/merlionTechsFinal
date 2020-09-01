@@ -8,7 +8,6 @@ import Activate from 'app/modules/account/activate/activate';
 import PasswordResetInit from 'app/modules/account/password-reset/init/password-reset-init';
 import PasswordResetFinish from 'app/modules/account/password-reset/finish/password-reset-finish';
 import Logout from 'app/modules/login/logout';
-import Logic from 'app/entities/logic';
 import Home from 'app/modules/home/home'
 import Entities from 'app/entities';
 import PrivateRoute from 'app/shared/auth/private-route';

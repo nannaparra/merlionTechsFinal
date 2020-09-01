@@ -1,32 +1,32 @@
 package merliontechs.domain;
 
 public class Pair {
-    private String date;
-    private float cont;
+    private String Nombre;
+    private float Cantidad;
 
-    public Pair(String date,float cont){
-        this.date=date;
-        this.cont=cont;
+    public Pair(String name,float cantidad){
+        this.Nombre = name;
+        this.Cantidad = cantidad;
     }
 
-    public Pair(String date){
-        this.date=date;
-        cont=1;
+    public Pair(String name) {
+        this.Nombre = name;
+        Cantidad = 1;
     }
 
-    public String getDate(){
-        return date;
+    public String getNombre() {
+        return Nombre;
     }
 
-    public void setDate(String date){
-        this.date=date;
+    public void setNombre(String name) {
+        this.Nombre = name;
     }
 
-    public float getCont(){
-        return cont;
+    public float getCantidad() {
+        return Cantidad;
     }
 
-    public void setCont(float cont){
-        this.cont=cont;
+    public void setCantidad(float cantidad) {
+        this.Cantidad = cantidad;
     }
 }

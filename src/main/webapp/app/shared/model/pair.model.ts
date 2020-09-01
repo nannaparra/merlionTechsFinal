@@ -1,6 +1,6 @@
 export interface IPair {
-  date?: string;
-  cont?: number;
+  Nombre?: string;
+  Cantidad?: number;
 }
 
 export const defaultValue: Readonly<IPair> = {};

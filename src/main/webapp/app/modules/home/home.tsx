@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import './home.scss';
 
 import React from 'react';
@@ -7,9 +6,8 @@ import { Translate } from 'react-jhipster';
 import { connect } from 'react-redux';
 import { Row, Col, Alert } from 'reactstrap';
 
-import { IRootState } from 'app/shared/reducers';
 import ErrorBoundaryRoute from 'app/shared/error/error-boundary-route';
-import Logic from './components/logic';
+import Logic from './home.logic';
 
 export type IHomeProp = StateProps;
 
